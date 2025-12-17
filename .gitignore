@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+# IDE cache ignore
+/.project
+/.settings/
+/.buildpath
+composer.lock
+/vendor/
+
+/.idea
+/.vscode
+
+.phpunit.result.cache

@@ -1,0 +1,38 @@
+{
+  "name": "oat-sa/tao-timers-client",
+  "description": "PHP library to assist communication with oat-sa/tao-timers-be",
+  "type": "library",
+  "license": "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License",
+  "minimum-stability": "dev",
+  "repositories": [],
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.4",
+    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ~1",
+    "psr/http-client": "^1.0"
+  },
+  "require-dev": {
+    "nyholm/psr7": "^1.4",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "OAT\\Library\\TaoTimerClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OAT\\Library\\TaoTimerClient\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "authors": [
+    {
+      "name": "Open Assessment Technologies S.A.",
+      "homepage": "https://www.taotesting.com"
+    }
+  ]
+}
