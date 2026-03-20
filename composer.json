@@ -1,5 +1,5 @@
 {
-  "name": "oat-sa/tao-timers-client",
+  "name": "tao-ce/tao-timers-client",
   "description": "PHP library to assist communication with oat-sa/tao-timers-be",
   "type": "library",
   "license": "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License",
